@@ -4,7 +4,7 @@
     <h2>Essential Links</h2>
     <ul>
       <li>
-        <router-link to="/Test">Test</router-link>
+        <router-link to="/cell-swipe">Test</router-link>
       </li>
       <li>
         <a
