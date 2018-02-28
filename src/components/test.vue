@@ -1,6 +1,17 @@
 <template>
   <div class="test">
     <p>test</p>
+    <mt-range v-model="rangeValue"></mt-range>
+    <mt-cell-swipe
+      title="text"
+      :right="[
+        {
+          content: 'Delete',
+          style: { background: 'red', color: '#fff' },
+          handler: () => this.$messagebox('delete')
+        }
+      ]">
+    </mt-cell-swipe>
   </div>
 </template>
 
@@ -9,7 +20,8 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      rangeValue: 10
     }
   }
 }
