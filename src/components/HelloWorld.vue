@@ -10,6 +10,9 @@
         <router-link to="/action-sheet">点击上拉action sheet</router-link>
       </li>
       <li>
+        <router-link to="/count-down">获取验证码倒计时</router-link>
+      </li>
+      <li>
         <a
           href="https://chat.vuejs.org"
           target="_blank"
@@ -94,7 +97,7 @@ ul {
   padding: 0;
 }
 li {
-  display: inline-block;
+  display: block;
   margin: 0 10px;
 }
 a {
