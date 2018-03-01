@@ -1,7 +1,7 @@
 <template>
   <div>
     <mt-button @click='handleClick' type="primary" v-if="!isGettingCode">获取验证码</mt-button>
-    <mt-button type="default" v-if='isGettingCode'>{{second}}s</mt-button>
+    <p type="default" v-if='isGettingCode'>{{second}}s后重新获取</p>
   </div>
 </template>
 
