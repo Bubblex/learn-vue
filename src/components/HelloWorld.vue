@@ -4,15 +4,10 @@
     <h2>Essential Links</h2>
     <ul>
       <li>
-        <router-link to="/cell-swipe">Test</router-link>
+        <router-link to="/cell-swipe">侧滑</router-link>
       </li>
       <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
-          Forum
-        </a>
+        <router-link to="/action-sheet">点击上拉action sheet</router-link>
       </li>
       <li>
         <a
